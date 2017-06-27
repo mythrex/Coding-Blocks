@@ -1,0 +1,16 @@
+P{
+  color: Blue;
+}
+*{
+  color: Red;
+}
+
+div>p{
+  color: Pink;
+}
+div~blockquotes{
+  color: White;
+}
+[class|=odd]{
+  font-size: 30px;
+}

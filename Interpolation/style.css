@@ -1,0 +1,44 @@
+/*.box{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 10px;
+  background-color: Red;
+  animation: bounce
+}
+@keyframes bounce{
+  0%{
+    margin-left: 10px
+  }
+  50%{
+    margin-left: 100px;
+  }
+  100%{
+    margin-left: 10px;
+  }
+}
+#one{
+
+}
+#two{
+  animation-timing-function: ease;
+}*/
+#btn{
+  background-color: gray;
+  padding: 10px;
+  color: white;
+  box-shadow: 10px 10px 10px #a1a1a1 ;
+  border: 1px solid Black;
+}
+#btn:hover{
+  position: relative;
+  bottom: 3px;
+  right: 3px;
+  box-shadow: 13px 13px 13px #a1a1a1 ;
+}
+#btn:active{
+  position: relative;
+  bottom: -3px;
+  right: -3px;
+  box-shadow: 5px 5px 5px #a1a1a1 ;
+}
